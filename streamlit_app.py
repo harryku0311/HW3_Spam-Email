@@ -49,7 +49,7 @@ def load_data(path):
              return pd.DataFrame()
     return df
 
-DATA_PATH = r"C:\Users\lab611\Desktop\AIOT物聯網\HW3\sms_spam_no_header.csv"
+DATA_PATH = "sms_spam_no_header.csv"
 
 # --- Preprocessing Functions ---
 stemmer = PorterStemmer()
